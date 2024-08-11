@@ -103,7 +103,7 @@ p {
 }
 
 .email-input {
-  padding: 20px;
+  padding: 20px 40px; 
   font-size: 1rem;
   border: 1px solid #ffffff;
   border-radius: 4px;
@@ -116,7 +116,7 @@ p {
   background-color: #e50914;
   color: white;
   border: none;
-  padding: 20px 40px;
+  padding: 18px 25px;
   font-size: 1rem;
   cursor: pointer;
   border-radius: 6px;
