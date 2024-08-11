@@ -1,0 +1,142 @@
+/* App.css */
+body {
+  background-image: url('https://cdn.colombia.com/sdi/2023/01/31/netflix-las-peliculas-y-series-que-ya-no-haran-parte-de-su-catalogo-en-febrero-del-2023-1113706.jpg'), 
+    linear-gradient(to top, rgba(0, 0, 0, 40%) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.3) 100%);
+  margin: 0;
+  display: flex;
+  flex-direction: column; /* Alinea los elementos verticalmente */
+  min-width: 320px;
+  min-height: 100vh;
+  color: white;
+  background-size: cover; 
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+header {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px; /* Opcional, para limitar el ancho máximo del contenido */
+  margin: 0 auto;
+}
+
+.netflix-logo {
+  width: 150px;
+}
+
+.header-links {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Espacio entre los elementos en el header */
+}
+
+.login-button {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.login-button:hover {
+  background-color: #ca0202;
+}
+
+.language-selector {
+  background: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 5px;
+  font-size: 1rem;
+}
+
+main {
+  text-align: center;
+  padding: 120px 20px 20px; /* Ajuste del padding superior para evitar que el contenido quede oculto detrás del header */
+}
+
+h1 {
+  margin-top: 120px;
+  font-family: sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: -10px;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  font-weight: 80;
+}
+
+#abajo {
+  margin-top: 35px;
+  font-family: sans-serif;
+  font-size: 1.4rem;
+}
+
+.email-signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.email-input {
+  padding: 20px;
+  font-size: 1rem;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  width: 300px; /* Ajusta el ancho del input según sea necesario */
+  background-color: rgb(49, 44, 44);
+  opacity: 0.5;
+}
+
+.subscribe-button {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  padding: 20px 40px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.subscribe-button:hover {
+  border-color: #ca0202;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 75%;
+}
