@@ -1,0 +1,38 @@
+.email-signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.email-input {
+  padding: 20px 40px; 
+  font-size: 1rem;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  width: 300px; /* Ajusta el ancho del input según sea necesario */
+  background-color: rgb(49, 44, 44);
+  opacity: 0.5;
+}
+
+.subscribe-button {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  padding: 18px 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.subscribe-button:hover {
+  border-color: #ca0202;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}

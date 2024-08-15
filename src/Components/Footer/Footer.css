@@ -1,0 +1,15 @@
+#Inc {
+    font-family: sans-serif;
+    font-size: 1.0rem;
+    font-weight: 80;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 75%;
+}
