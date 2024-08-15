@@ -5,6 +5,7 @@ import EmailSignup from './Components/EmailSignUp/EmailSignUp';
 import Header from './Components/Header/Header';
 import TVComponent from './Components/TVComponent/TVComponent';
 import FAQ from './Components/FAQ/FAQ';
+import CustomFooter from './Components/CustomFooter/CustomFooter';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <EmailSignup />
       <TVComponent/>
       <FAQ />
+      <CustomFooter />
     </>
   );
 }
